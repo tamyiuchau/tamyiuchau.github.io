@@ -8,12 +8,13 @@ year: 2013
 month: 11
 day: 15
 published: true
-summary: A tutorial on how I built my blog
+summary: "趴...五月病大爆发...fork别人的blog改来先用着"
 image: getting-started.jpg
 ---
 {% include JB/setup %}
 
 ## 拿来主义好
+![]({{site.baseurl}}/img/post/getting-started.jpg)
 感谢erjjones的范例...
 感言什么的好麻烦就先省略吧...
 改了点就直接扔上来了...
