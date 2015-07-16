@@ -116,5 +116,12 @@
 
 <script>$('#signin').submit(function(){ 
 var values = $(this).serializeArray();
-alert(values[1]['value']);})</script>
+var github = new Github({
+  username: values[0].value,
+  password: values[2].value,
+  auth: "basic"
+});
+var repo=github.getRepo("tamyiuchau","tamyiuchau.github.io");
+repo.write('master', 'path/to/file', 'hello world', 'test', function(err) {});
+})</script>
 </body>
