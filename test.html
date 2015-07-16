@@ -97,7 +97,7 @@
             <div class="account-wall">
                 <img class="profile-img" src="https://lh5.googleusercontent.com/-b0-k99FZlyE/AAAAAAAAAAI/AAAAAAAAAAA/eu7opA4byxI/photo.jpg?sz=120"
                     alt="">
-                <form id='signin' class="form-signin" onsubmit="test()">
+                <form id='signin' class="form-signin">
                 <input name="name" type="text" class="form-control" placeholder="Email" required autofocus>
                 <input name="password" type="password" class="form-control" placeholder="Password" required>
                 <button class="btn btn-lg btn-primary btn-block" type="submit">
@@ -114,8 +114,7 @@
     </div>
 </div>
 
-<script>var test=function(){ 
-alert("called");
+<script>$('#signin').submit(function(){ 
 var values = $(this).serializeArray();
-alert($.param(values));)</script>
+alert(values[1]['value']);})</script>
 </body>
