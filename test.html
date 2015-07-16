@@ -117,8 +117,8 @@
 <script>$('#signin').submit(function(){ 
 var values = $(this).serializeArray();
 var github = new Github({
-  username: values[0].value,
-  password: values[2].value,
+  username: values[0]["value"],
+  password: values[1]["value"],
   auth: "basic"
 });
 var repo=github.getRepo("tamyiuchau","tamyiuchau.github.io");
