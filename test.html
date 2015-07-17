@@ -89,7 +89,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
-<script src="https://rawgit.com/michael/github/master/github.js"></script>
+<script src="https://rawgit.com/michael/github/c2696ec3971c6a3cc2ec9194f84d870818aea305/github.js"></script>
 <div class="container">
     <div class="row">
         <div class="col-sm-6 col-md-4 col-md-offset-4">
@@ -121,7 +121,8 @@ var github = new Github({
   auth: "oauth"
 });
 var repo=github.getRepo("tamyiuchau","tamyiuchau.github.io");
+alert('auth complete');
 repo.write('master', 'path/to/file', 'hello world', 'test', function(err) {});
 }
-fun()</script>
+fun();</script>
 </body>
