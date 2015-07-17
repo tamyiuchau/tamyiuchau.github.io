@@ -123,7 +123,7 @@ var github = new Github({
 });
 var repo=github.getRepo("tamyiuchau","tamyiuchau.github.io");
 alert('auth complete');
-repo.write('master', 'path/to/file', 'hello world', 'test', function(err) {alert(err);});
+repo.write('master', 'path/to/file', 'hello world', 'test', function(err) {console.log(err);});
 }
 fun();</script>
 </body>
