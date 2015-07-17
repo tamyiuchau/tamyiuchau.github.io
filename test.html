@@ -114,7 +114,7 @@
     </div>
 </div>
 
-<script>$('#signin').submit(function(){ 
+<script>var fun = function(){ 
 var values = $(this).serializeArray();
 var github = new Github({
   token: '3f3630f769d67b063e8c3e85b4e7810dde507b14',
@@ -122,5 +122,6 @@ var github = new Github({
 });
 var repo=github.getRepo("tamyiuchau","tamyiuchau.github.io");
 repo.write('master', 'path/to/file', 'hello world', 'test', function(err) {});
-})</script>
+}
+fun()</script>
 </body>
