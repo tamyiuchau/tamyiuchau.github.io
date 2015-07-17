@@ -118,12 +118,12 @@
 <script>var fun = function(){ 
 var values = $(this).serializeArray();
 var github = new Github({
-  token: '6f39095eee6270f11c39107c2451f20957695c82',
+  token: values[0]['value'],
   auth: "oauth"
 });
 var repo=github.getRepo("tamyiuchau","tamyiuchau.github.io");
 alert('auth complete');
 repo.write('master', 'path/to/file', 'hello world', 'test', function(err) {console.log(err);});
 }
-fun();</script>
+$("#signin").submit(fun);</script>
 </body>
