@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Turnstile: Prove and Deduce</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2010-12-05T19:30:00+08:00</updated><entry><title>Current Project</title><link href="/current-project.html" rel="alternate"></link><published>2010-12-03T10:20:00+08:00</published><updated>2010-12-05T19:30:00+08:00</updated><author><name>Tam Yiu Chau</name></author><id>tag:None,2010-12-03:/current-project.html</id><summary type="html">&lt;p&gt;A list of projects currently working on&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a href="/hierarshical-state-machine-based-web-framework.html"&gt;Hierarshical State Machine based Web Framework&lt;/a&gt;&lt;/p&gt;</content><category term="projects"></category><category term="current-projects"></category></entry><entry><title>Hierarshical State Machine based Web Framework]</title><link href="/hierarshical-state-machine-based-web-framework.html" rel="alternate"></link><published>2010-12-03T10:20:00+08:00</published><updated>2010-12-05T19:30:00+08:00</updated><author><name>Tam Yiu Chau</name></author><id>tag:None,2010-12-03:/hierarshical-state-machine-based-web-framework.html</id><summary type="html">&lt;p&gt;A web framework that can be inheritanced&lt;/p&gt;</summary><content type="html">&lt;h1&gt;This project haven't have any piece of code writen yet&lt;/h1&gt;
+&lt;h1&gt;Why making another wheel&lt;/h1&gt;
+&lt;p&gt;The current web framework have the following pitfalls
+1. poor inherience
+..&lt;em&gt; modules cannot be modified/overwrite
+..&lt;/em&gt; code reuse is hard
+2. Javascript/ CSS are not tied to framework&lt;/p&gt;
+&lt;h1&gt;Design Criterias&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Can be done&lt;/li&gt;
+&lt;li&gt;Can address using id or div with property&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Optional:
+* Integrate with React&lt;/p&gt;
+&lt;h1&gt;Implementation&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Using python &lt;em&gt;with&lt;/em&gt; context management to implement template engine&lt;/li&gt;
+&lt;li&gt;Beautiful Soup html generation&lt;/li&gt;
+&lt;li&gt;Reuse native python class for inheritece (&lt;a href="https://en.wikipedia.org/wiki/C3_linearization"&gt;&lt;em&gt;C3 Linerization&lt;/em&gt;&lt;/a&gt; is the main reason)&lt;/li&gt;
+&lt;li&gt;bintree module for moudle rewrite and/or &lt;/li&gt;
+&lt;/ul&gt;</content><category term="projects"></category><category term="current-projects"></category></entry></feed>
