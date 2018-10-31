@@ -2,7 +2,7 @@
 <html lang="english">
 <head>
         <meta charset="utf-8" />
-        <title>Turnstile: Prove and Deduce - current-projects</title>
+        <title>A heap based Worst Case O(n) (top-k) selection algorithm</title>
         <link rel="stylesheet" href="/theme/css/main.css" />
 
         <!--[if IE]>
@@ -14,13 +14,18 @@
         <header id="banner" class="body">
                 <h1><a href="/">Turnstile: Prove and Deduce </a></h1>
                 <nav><ul>
-                    <li><a href="/category/project.html">Project</a></li>
+                    <li class="active"><a href="/category/project.html">Project</a></li>
                 </ul></nav>
         </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="/a-heap-based-worst-case-on-top-k-selection-algorithm.html" rel="bookmark"
+           title="Permalink to A heap based Worst Case O(n) (top-k) selection algorithm">A heap based Worst Case O(n) (top-k) selection algorithm</a></h1>
+    </header>
 
-            <aside id="featured" class="body">
-                <article>
-                    <h1 class="entry-title"><a href="/a-heap-based-worst-case-on-top-k-selection-algorithm.html">A heap based Worst Case O(n) (top-k) selection algorithm</a></h1>
+    <div class="entry-content">
 <footer class="post-info">
         <abbr class="published" title="2010-12-03T10:20:00+08:00">
                 Published: Fri 03 December 2010
@@ -35,7 +40,7 @@
         </address>
 <p>In <a href="/category/project.html">Project</a>.</p>
 <p>tags: <a href="/tag/projects.html">projects</a> <a href="/tag/current-projects.html">current-projects</a> </p>
-</footer><!-- /.post-info --><h1>Psuedo code</h1>
+</footer><!-- /.post-info -->      <h1>Psuedo code</h1>
 <p>Input: n = array</p>
 <p>function top_k(n,k):
     if k&lt;len(n)/2:
@@ -56,40 +61,11 @@ The total comparision is 2n+ 4/3 *2n = 4.33 n.</p>
 The total comparison is 13/8 + 4/3 * 13/8 n = 3.79 n</p>
 <p>This result 5.43n by Blum, Floyd, Pratt etc. "Time bounds for selection"(1973).
 But slower than current 2.95 by Dor and Zwick "Selecting the Median"(1999).</p>
-<p>IMO this is the most easy to implement top-k algorithm.</p>                </article>
-            </aside><!-- /#featured -->
-                <section id="content" class="body">
-                    <h1>Other articles</h1>
-                    <hr />
-                    <ol id="posts-list" class="hfeed">
+<p>IMO this is the most easy to implement top-k algorithm.</p>
+    </div><!-- /.entry-content -->
 
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="/current-project.html" rel="bookmark"
-                           title="Permalink to Current Project">Current Project</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2010-12-03T10:20:00+08:00">
-                Published: Fri 03 December 2010
-        </abbr>
-		<br />
-        <abbr class="modified" title="2018-10-31T20:53:00+08:00">
-                Updated: Wed 31 October 2018
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="/author/tam-yiu-chau.html">Tam Yiu Chau</a>
-        </address>
-<p>In <a href="/category/project.html">Project</a>.</p>
-<p>tags: <a href="/tag/projects.html">projects</a> <a href="/tag/current-projects.html">current-projects</a> </p>
-</footer><!-- /.post-info -->                <p>A list of projects currently working on</p>
-                <a class="readmore" href="/current-project.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-                </ol><!-- /#posts-list -->
-                </section><!-- /#content -->
+  </article>
+</section>
         <section id="extras" class="body">
                 <div class="blogroll">
                         <h2>links</h2>
